@@ -120,8 +120,6 @@ public class Product implements Serializable, Cloneable {
 		this.weight = weight;
 	}
 	
-	
-
 	public List<Variant> getVariant() {
 		return variant;
 	}
