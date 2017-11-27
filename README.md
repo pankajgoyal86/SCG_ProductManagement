@@ -6,7 +6,7 @@ Spring Boot - Product CRUD operations with Mongo DB.
 Controllers:
 Host: localhost
 Port:8050
-Context-Path: /api
+
 1./createProduct
 2./getAllProducts
 3./getProduct/{productId}
@@ -15,7 +15,7 @@ Context-Path: /api
 6./updateProduct/{productId}
 7./deleteProduct/{productId}
 
-Swagger -> http://localhost:8050/api/swagger-ui.html
+Swagger -> http://localhost:8050/swagger-ui.html
 
 CREATE PRODUCT JSON->
 

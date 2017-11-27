@@ -57,7 +57,7 @@ public class ProductController {
 	
 	@GetMapping("/getAllProducts")
 	public List<Product> getAllProducts(){
-		log.info("delete product request received");
+		log.info("Get All products request received");
 		return ProductServices.getAllProducts();
 	}
 	

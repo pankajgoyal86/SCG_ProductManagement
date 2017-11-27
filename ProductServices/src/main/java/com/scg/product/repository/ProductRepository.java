@@ -19,4 +19,6 @@ public interface ProductRepository extends MongoRepository<Product, String>  {
 	public Product findByVariantSku(String sku);
 	public Product findByProductId(String productId);
 	public List<Product> findByType(String type);
+	
+	
 }
